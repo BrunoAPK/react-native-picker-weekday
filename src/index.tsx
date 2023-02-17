@@ -24,7 +24,7 @@ export const DayPicker :React.FC<Props> = ({ weekdays, setWeekdays,dayTextStyle,
   const acColor = activeColor?activeColor:'red'
   const icColor = inactiveColor?inactiveColor:'grey'
   const tColor = textColor?textColor:'white'
-  const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
+  const days = ['DOM', 'SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
   return (
     <View style={[styles.boxContainer,wrapperStyles]}>
       {days.map((value, index) => (
